@@ -9,35 +9,64 @@
 	<script>
 	var d = new Date();
 		var n= d.getHours();
+		var y = d.getDay();
+		if(y==0){
+			var Today = "Sunday,";
+			var Tomorrow = "Monday,";
+		}
+		else if(y==1){
+			var Today = "Monday,";
+			var Tomorrow = "Tuesday,";
+		}
+		else if(y==2){
+			var Today = "Tuesday,";
+			var Tomorrow = "Wednesday,";
+		}
+		else if(y==3){
+			var Today = "Wednesday,";
+			var Tomorrow = "Thursday,";
+		}
+		else if(y==4){
+			var Today = "Thursday,";
+			var Tomorrow = "Friday,";
+		}
+		else if(y==5){
+			var Today = "Friday,";
+			var Tomorrow = "Saturday,";
+		}
+		else if(y==6){
+			var Today = "Saturday,";
+			var Tomorrow = "Sunday,";
+		}
 		if(n<9&&n>0){
-			document.getElementById('slot1').innerHTML="Today 9:00 - 12:00";
-			document.getElementById('slot2').innerHTML="Today 12:00 - 15:00";
-			document.getElementById('slot3').innerHTML="Today 15:00 - 18:00";
-			document.getElementById('slot4'.innerHTML)="Today 18:00 - 21:00";
+			document.getElementById('slot1').innerHTML=Today + " 9AM - 12PM";
+			document.getElementById('slot2').innerHTML=Today + " 12PM - 3PM";
+			document.getElementById('slot3').innerHTML=Today + " 3PM - 6PM";
+			document.getElementById('slot4').innerHTML=Today + " 6PM - 9PM";
 		}
 		else if(n<12&&n>=9){
-			document.getElementById('slot1').innerHTML="Today 12:00 - 15:00";
-			document.getElementById('slot2').innerHTML="Today 15:00 - 18:00";
-			document.getElementById('slot3').innerHTML="Today 18:00 - 21:00";
-			document.getElementById('slot4').innerHTML="Tomorrow 9:00 - 12:00";
+			document.getElementById('slot1').innerHTML=Today + " 12PM - 3PM";
+			document.getElementById('slot2').innerHTML=Today + " 3PM - 6PM";
+			document.getElementById('slot3').innerHTML=Today + " 6PM - 9PM";
+			document.getElementById('slot4').innerHTML=Tomorrow + " 9AM - 12PM";
 		}
 		else if(new Date().getHours()<15&&new Date().getHours()>=12){
-			document.getElementById('slot1').innerHTML="Today 15:00 - 18:00";
-			document.getElementById('slot2').innerHTML="Today 18:00 - 21:00";
-			document.getElementById('slot3').innerHTML="Tomorrow 9:00 - 12:00";
-			document.getElementById('slot4').innerHTML="Tomorrow 12:00 - 15:00";
+			document.getElementById('slot1').innerHTML=Today + " 3PM - 6PM";
+			document.getElementById('slot2').innerHTML=Today + " 6PM - 9PM";
+			document.getElementById('slot3').innerHTML=Tomorrow + " 9AM - 12PM";
+			document.getElementById('slot4').innerHTML=Tomorrow + " 12PM - 3PM";
 		}
 		else if(n<18&&n>=15){
-			document.getElementById('slot1').innerHTML="Today 18:00 - 21:00";
-			document.getElementById('slot2').innerHTML="Tomorrow 9:00 - 12:00";
-			document.getElementById('slot3').innerHTML="Tomorrow 12:00 - 15:00";
-			document.getElementById('slot4').innerHTML="Tomorrow 15:00 - 18:00";
+			document.getElementById('slot1').innerHTML=Today + " 6PM - 9PM";
+			document.getElementById('slot2').innerHTML=Tomorrow + " 9AM - 12PM";
+			document.getElementById('slot3').innerHTML=Tomorrow + " 12PM - 3PM";
+			document.getElementById('slot4').innerHTML=Tomorrow + " 3PM - 6PM";
 		}
 		else{
-			document.getElementById('slot1').innerHTML="Tomorrow 9:00 - 12:00";
-			document.getElementById('slot2').innerHTML="Tomorrow 12:00 - 15:00";
-			document.getElementById('slot3').innerHTML="Tomorrow 15:00 - 18:00";
-			document.getElementById('slot4').innerHTML="Tomorrow 18:00 - 21:00";
+			document.getElementById('slot1').innerHTML=Tomorrow + " 9:00 - 12:00";
+			document.getElementById('slot2').innerHTML=Tomorrow + " 12:00 - 15:00";
+			document.getElementById('slot3').innerHTML=Tomorrow + " 15:00 - 18:00";
+			document.getElementById('slot4').innerHTML=Tomorrow + " 18:00 - 21:00";
 		}
 		function abcd1(){
 		var x =document.getElementsByClassName('top-menu-link');
