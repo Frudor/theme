@@ -6571,3 +6571,4 @@ INSERT INTO `oc_zone_to_geo_zone` (`zone_to_geo_zone_id`, `country_id`, `zone_id
 (109, 222, 3972, 3, '0000-00-00 00:00:00', '0000-00-00 00:00:00') in C:\wamp\www\Frudor\system\library\db\mysqli.php on line 41
 2015-07-18 11:28:06 - PHP Notice:  Undefined index: status in C:\wamp\www\Frudor\catalog\controller\module\journal2_cms_blocks.php on line 96
 2015-07-18 11:28:21 - PHP Notice:  Undefined index: status in C:\wamp\www\Frudor\catalog\controller\module\journal2_cms_blocks.php on line 96
+2015-07-22 7:44:23 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rar!' at line 1<br />Error No: 1064<br />Rar! in C:\wamp\www\Frudor\system\library\db\mysqli.php on line 41

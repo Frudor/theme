@@ -14,14 +14,15 @@ $_['text_agree']           = 'I have read and agree to the <a href="%s" class="a
 
 // Entry
 $_['entry_customer_group'] = 'Customer Group';
-$_['entry_firstname']      = 'First Name';
+$_['entry_firstname']      = 'Name';
 $_['entry_lastname']       = 'Last Name';
 $_['entry_email']          = 'E-Mail';
 $_['entry_telephone']      = 'Telephone';
 $_['entry_fax']            = 'Fax';
 $_['entry_company']        = 'Company';
-$_['entry_address_1']      = 'Address 1';
-$_['entry_address_2']      = 'Address 2';
+$_['entry_address_1']      = 'Address';
+$_['entry_address_1']      = 'Address';
+$_['entry_address_2']      = 'Address';
 $_['entry_postcode']       = 'Post Code';
 $_['entry_city']           = 'City';
 $_['entry_country']        = 'Country';

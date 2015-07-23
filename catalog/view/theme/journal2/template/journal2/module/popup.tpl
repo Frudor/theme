@@ -6,6 +6,64 @@
     <?php endif; ?>
     <?php if ($type === 'text'): ?>
     <div class="journal-popup-content  <?php echo $content_overflow; ?>" style="<?php echo implode('; ', $content_style); ?>">
+	<script>
+	var d = new Date();
+		var n= d.getHours();
+		if(n<9&&n>0){
+			document.getElementById('slot1').innerHTML="Today 9:00 - 12:00";
+			document.getElementById('slot2').innerHTML="Today 12:00 - 15:00";
+			document.getElementById('slot3').innerHTML="Today 15:00 - 18:00";
+			document.getElementById('slot4'.innerHTML)="Today 18:00 - 21:00";
+		}
+		else if(n<12&&n>=9){
+			document.getElementById('slot1').innerHTML="Today 12:00 - 15:00";
+			document.getElementById('slot2').innerHTML="Today 15:00 - 18:00";
+			document.getElementById('slot3').innerHTML="Today 18:00 - 21:00";
+			document.getElementById('slot4').innerHTML="Tomorrow 9:00 - 12:00";
+		}
+		else if(new Date().getHours()<15&&new Date().getHours()>=12){
+			document.getElementById('slot1').innerHTML="Today 15:00 - 18:00";
+			document.getElementById('slot2').innerHTML="Today 18:00 - 21:00";
+			document.getElementById('slot3').innerHTML="Tomorrow 9:00 - 12:00";
+			document.getElementById('slot4').innerHTML="Tomorrow 12:00 - 15:00";
+		}
+		else if(n<18&&n>=15){
+			document.getElementById('slot1').innerHTML="Today 18:00 - 21:00";
+			document.getElementById('slot2').innerHTML="Tomorrow 9:00 - 12:00";
+			document.getElementById('slot3').innerHTML="Tomorrow 12:00 - 15:00";
+			document.getElementById('slot4').innerHTML="Tomorrow 15:00 - 18:00";
+		}
+		else{
+			document.getElementById('slot1').innerHTML="Tomorrow 9:00 - 12:00";
+			document.getElementById('slot2').innerHTML="Tomorrow 12:00 - 15:00";
+			document.getElementById('slot3').innerHTML="Tomorrow 15:00 - 18:00";
+			document.getElementById('slot4').innerHTML="Tomorrow 18:00 - 21:00";
+		}
+		function abcd1(){
+		var x =document.getElementsByClassName('top-menu-link');
+		console.log(x[0].value);
+		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot1').innerHTML + ")";
+		 $.magnificPopup.close();
+		}
+		function abcd2(){
+		var x =document.getElementsByClassName('top-menu-link');
+		console.log(x[0].value);
+		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot2').innerHTML + ")";
+		 $.magnificPopup.close();
+		}
+		function abcd3(){
+		var x =document.getElementsByClassName('top-menu-link');
+		console.log(x[0].value);
+		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot3').innerHTML + ")";
+		 $.magnificPopup.close();
+		}
+		function abcd4(){
+		var x =document.getElementsByClassName('top-menu-link');
+		console.log(x[0].value);
+		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot4').innerHTML + ")";
+		 $.magnificPopup.close();
+		}
+	</script>
         <?php echo $content; ?>
     </div>
     <?php endif; ?>
@@ -73,6 +131,7 @@
 <?php if (!$is_ajax): ?>
 <script>
     (function () {
+		document.getElementById('slot1').innerHTML= "fghjj";
         <?php if ($button_1['status'] && $button_1['hover_style']): ?>
         $('<style>#journal-popup-<?php echo $module; ?> .button-1:hover { <?php echo $button_1['hover_style']; ?> }</style>').appendTo($('head'));
         <?php endif; ?>
