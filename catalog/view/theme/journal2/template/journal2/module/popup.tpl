@@ -12,31 +12,31 @@
 		var y = d.getDay();
 		if(y==0){
 			var Today = "Sunday,";
-			var Tomorrow = "Monday,";
+			var Tomorrow = "Monday, ";
 		}
 		else if(y==1){
-			var Today = "Monday,";
-			var Tomorrow = "Tuesday,";
+			var Today = "Monday, ";
+			var Tomorrow = "Tuesday, ";
 		}
 		else if(y==2){
-			var Today = "Tuesday,";
-			var Tomorrow = "Wednesday,";
+			var Today = "Tuesday, ";
+			var Tomorrow = "Wednesday, ";
 		}
 		else if(y==3){
-			var Today = "Wednesday,";
-			var Tomorrow = "Thursday,";
+			var Today = "Wednesday, ";
+			var Tomorrow = "Thursday, ";
 		}
 		else if(y==4){
-			var Today = "Thursday,";
-			var Tomorrow = "Friday,";
+			var Today = "Thursday, ";
+			var Tomorrow = "Friday, ";
 		}
 		else if(y==5){
-			var Today = "Friday,";
-			var Tomorrow = "Saturday,";
+			var Today = "Friday, ";
+			var Tomorrow = "Saturday, ";
 		}
 		else if(y==6){
-			var Today = "Saturday,";
-			var Tomorrow = "Sunday,";
+			var Today = "Saturday, ";
+			var Tomorrow = "Sunday, ";
 		}
 		if(n<9&&n>0){
 			document.getElementById('slot1').innerHTML=Today + " 9AM - 12PM";
@@ -71,25 +71,25 @@
 		function abcd1(){
 		var x =document.getElementsByClassName('top-menu-link');
 		console.log(x[0].value);
-		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot1').innerHTML + ")";
+		 x[0].innerHTML= "Delivery Slot (" + document.getElementById('slot1').innerHTML + ")";
 		 $.magnificPopup.close();
 		}
 		function abcd2(){
 		var x =document.getElementsByClassName('top-menu-link');
 		console.log(x[0].value);
-		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot2').innerHTML + ")";
+		 x[0].innerHTML= "Delivery Slot (" + document.getElementById('slot2').innerHTML + ")";
 		 $.magnificPopup.close();
 		}
 		function abcd3(){
 		var x =document.getElementsByClassName('top-menu-link');
 		console.log(x[0].value);
-		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot3').innerHTML + ")";
+		 x[0].innerHTML= "Delivery Slot (" + document.getElementById('slot3').innerHTML + ")";
 		 $.magnificPopup.close();
 		}
 		function abcd4(){
 		var x =document.getElementsByClassName('top-menu-link');
 		console.log(x[0].value);
-		 x[0].innerHTML= "Delivery Slot(" + document.getElementById('slot4').innerHTML + ")";
+		 x[0].innerHTML= "Delivery Slot (" + document.getElementById('slot4').innerHTML + ")";
 		 $.magnificPopup.close();
 		}
 	</script>
