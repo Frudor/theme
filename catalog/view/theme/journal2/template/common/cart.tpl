@@ -49,7 +49,7 @@
           </tr>
           <?php } ?>
         </table>
-        <p class="text-right checkout"><a class="button" href="<?php echo $cart; ?>"><?php echo $text_cart; ?></a>&nbsp;<a class="button" href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></p>
+        <p class="text-right checkout"><a class="button" href="<?php echo $cart; ?>"><?php echo $text_checkout; ?></a>&nbsp;</p>
       </div>
     </li>
     <?php } else { ?>

@@ -143,7 +143,7 @@
             </div>
             <div class="product-details">
               <div class="caption">
-                <h4 class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
+                <h4 class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name'];?></a></h4>
                 <p class="description"><?php echo $product['description']; ?></p>
                 <?php if ($product['rating']) { ?>
                 <div class="rating">
@@ -159,7 +159,7 @@
                 <?php if ($product['price']) { ?>
                 <p class="price">
                   <?php if (!$product['special']) { ?>
-                  <?php echo $product['price']; ?>
+                  <?php echo $product['price'];echo "/kg"; ?>
                   <?php } else { ?>
                   <span class="price-old"><?php echo $product['price']; ?></span> <span class="price-new" <?php echo isset($product['date_end']) && $product['date_end'] ? "data-end-date='{$product['date_end']}'" : ""; ?>><?php echo $product['special']; ?></span>
                   <?php } ?>
