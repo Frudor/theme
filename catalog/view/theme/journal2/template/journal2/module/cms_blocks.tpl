@@ -4,7 +4,7 @@
     <?php endif; ?>
     <div class="blocks">
 <?php foreach ($sections as $section): ?>
-    <div class="cms-block <?php echo $grid_classes; ?>">
+    <div class="cms-block <?php echo $grid_classes; ?>" style="cursor:pointer;">
         <?php if ($section['title']): ?>
         <h3><?php echo $section['title']; ?></h3>
         <?php endif; ?>
