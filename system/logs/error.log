@@ -6574,3 +6574,115 @@ INSERT INTO `oc_zone_to_geo_zone` (`zone_to_geo_zone_id`, `country_id`, `zone_id
 2015-07-22 7:44:23 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rar!' at line 1<br />Error No: 1064<br />Rar! in C:\wamp\www\Frudor\system\library\db\mysqli.php on line 41
 2015-07-26 8:49:56 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\Frudor\system\library\mail.php on line 164
 2015-07-26 11:15:52 - PHP Warning:  unlink(C:/wamp/www/Frudor/system/cache/cache.country.status.1437904121): No such file or directory in C:\wamp\www\Frudor\system\library\cache\file.php on line 17
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:52:40 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+<<<<<<< HEAD
+2015-07-29 20:05:02 - PHP Notice:  Undefined variable: entry_organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 241
+2015-07-29 20:17:54 - PHP Notice:  Undefined variable: organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 244
+2015-07-29 20:17:54 - PHP Notice:  Undefined variable: organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 253
+2015-07-29 20:19:42 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\admin\controller\catalog\product.php on line 861
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:10:28 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 22:18:47 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-29 23:06:05 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:43:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:04 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:20 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:20 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:45:37 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:46:49 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:29 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 6:49:56 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 7:04:18 - PHP Notice:  Undefined index: organic in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
+2015-07-30 9:56:16 - PHP Notice:  Indirect modification of overloaded property ControllerCustompageMycustompage::$data has no effect in C:\wamp\www\Frudor\catalog\controller\custompage\mycustompage.php on line 25
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: header in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 2
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: column_left in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 3
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: column_right in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 4
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: content_top in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 7
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: content_bottom in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 9
+2015-07-30 10:08:42 - PHP Notice:  Undefined variable: footer in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 12
+2015-07-30 10:36:25 - PHP Notice:  Undefined variable: transparent_overlay in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 20
+2015-07-30 10:36:25 - PHP Notice:  Undefined variable: images in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 23
+2015-07-30 10:53:32 - PHP Notice:  Undefined variable: transparent_overlay in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 20
+2015-07-30 10:53:32 - PHP Notice:  Undefined variable: images in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 23
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: header in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 2
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: column_left in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 3
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: column_right in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 4
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: content_top in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 7
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: content_bottom in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 9
+2015-07-30 11:27:54 - PHP Notice:  Undefined variable: footer in C:\wamp\www\Frudor\catalog\view\theme\default\template\custompage\mycustompage.tpl on line 12
+2015-07-30 11:34:36 - PHP Notice:  Undefined variable: products in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:34:36 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:35:53 - PHP Notice:  Undefined variable: products in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:35:53 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:37:31 - PHP Notice:  Undefined variable: products in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:37:31 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:37:46 - PHP Notice:  Undefined variable: products in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+2015-07-30 11:37:46 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+=======
+>>>>>>> origin/master
