@@ -99,7 +99,11 @@
             <div>
               <div class="caption">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <h4><a href="<?php echo $product['href']; ?>"></a></h4>
+=======
+                <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; echo $product['product_id'] ?></a></h4>
+>>>>>>> origin/master
 =======
                 <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; echo $product['product_id'] ?></a></h4>
 >>>>>>> origin/master

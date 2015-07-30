@@ -6589,6 +6589,7 @@ INSERT INTO `oc_zone_to_geo_zone` (`zone_to_geo_zone_id`, `country_id`, `zone_id
 2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
 2015-07-27 11:53:51 - PHP Notice:  Undefined index: meta_title in C:\wamp\www\Frudor\catalog\view\theme\journal2\template\product\category.tpl on line 146
 <<<<<<< HEAD
+<<<<<<< HEAD
 2015-07-29 20:05:02 - PHP Notice:  Undefined variable: entry_organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 241
 2015-07-29 20:17:54 - PHP Notice:  Undefined variable: organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 244
 2015-07-29 20:17:54 - PHP Notice:  Undefined variable: organic in C:\wamp\www\Frudor\admin\view\template\catalog\product_form.tpl on line 253
@@ -6684,5 +6685,7 @@ INSERT INTO `oc_zone_to_geo_zone` (`zone_to_geo_zone_id`, `country_id`, `zone_id
 2015-07-30 11:37:31 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
 2015-07-30 11:37:46 - PHP Notice:  Undefined variable: products in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
 2015-07-30 11:37:46 - PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\Frudor\catalog\view\theme\default\template\information\static.tpl on line 13
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
