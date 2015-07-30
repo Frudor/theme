@@ -35,8 +35,9 @@
                 <?php if (isset($product['labels']) && is_array($product['labels'])): ?>
                 <?php foreach ($product['labels'] as $label => $name): ?>
                 <?php if ($label === 'outofstock'): ?>
-                <img class="outofstock" <?php echo Journal2Utils::getRibbonSize($this->journal2->settings->get('out_of_stock_ribbon_size')); ?> style="position: absolute; top: 0; left: 0" src="<?php echo Journal2Utils::generateRibbon($name, $this->journal2->settings->get('out_of_stock_ribbon_size'), $this->journal2->settings->get('out_of_stock_font_color'), $this->journal2->settings->get('out_of_stock_bg')); ?>" alt="" />
-                <?php else: ?>
+                 <img class="outofstock" <?php echo Journal2Utils::getRibbonSize($this->journal2->settings->get('out_of_stock_ribbon_size')); ?> style="position: absolute; top: 0; left: 0" src="<?php echo Journal2Utils::generateRibbon($name, $this->journal2->settings->get('out_of_stock_ribbon_size'), $this->journal2->settings->get('out_of_stock_font_color'), $this->journal2->settings->get('out_of_stock_bg')); ?>" alt="" />
+                   
+				<?php else: ?>
                 <span class="label-<?php echo $label; ?>"><b><?php echo $name; ?></b></span>
                 <?php endif; ?>
                 <?php endforeach; ?>

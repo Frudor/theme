@@ -98,7 +98,11 @@
             <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
             <div>
               <div class="caption">
-                <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
+<<<<<<< HEAD
+                <h4><a href="<?php echo $product['href']; ?>"></a></h4>
+=======
+                <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; echo $product['product_id'] ?></a></h4>
+>>>>>>> origin/master
                 <p><?php echo $product['description']; ?></p>
                 <?php if ($product['rating']) { ?>
                 <div class="rating">
@@ -114,7 +118,7 @@
                 <?php if ($product['price']) { ?>
                 <p class="price">
                   <?php if (!$product['special']) { ?>
-                  <?php echo $product['price']; ?>
+                  <?php echo $product['price'];?>
                   <?php } else { ?>
                   <span class="price-new"><?php echo $product['special']; ?></span> <span class="price-old"><?php echo $product['price']; ?></span>
                   <?php } ?>

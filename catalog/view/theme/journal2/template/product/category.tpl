@@ -130,7 +130,7 @@
               <?php if (isset($product['labels']) && is_array($product['labels'])): ?>
               <?php foreach ($product['labels'] as $label => $name): ?>
               <?php if ($label === 'outofstock'): ?>
-              <img class="outofstock" <?php echo Journal2Utils::getRibbonSize($this->journal2->settings->get('out_of_stock_ribbon_size')); ?> style="position: absolute; top: 0; left: 0" src="<?php echo Journal2Utils::generateRibbon($name, $this->journal2->settings->get('out_of_stock_ribbon_size'), $this->journal2->settings->get('out_of_stock_font_color'), $this->journal2->settings->get('out_of_stock_bg')); ?>" alt="" />
+              <img class="outofstock" <?php echo Journal2Utils::getRibbonSize($this->journal2->settings->get('out_of_stock_ribbon_size')); ?> style="position: absolute; top: 0; left: 0; width:18%; height:18%" src="http://localhost/Frudor/image/Images/Icons/organic-logo.png" alt="" />
               <?php else: ?>
               <span class="label-<?php echo $label; ?>"><b><?php echo $name; ?></b></span>
               <?php endif; ?>
@@ -143,7 +143,7 @@
             </div>
             <div class="product-details">
               <div class="caption">
-                <h4 class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
+                <h4 class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name'];?></a></h4>
                 <p class="description"><?php echo $product['description']; ?></p>
                 <?php if ($product['rating']) { ?>
                 <div class="rating">
@@ -159,7 +159,7 @@
                 <?php if ($product['price']) { ?>
                 <p class="price">
                   <?php if (!$product['special']) { ?>
-                  <?php echo $product['price']; ?>
+                  <?php echo $product['price'];echo "/kg"; ?>
                   <?php } else { ?>
                   <span class="price-old"><?php echo $product['price']; ?></span> <span class="price-new" <?php echo isset($product['date_end']) && $product['date_end'] ? "data-end-date='{$product['date_end']}'" : ""; ?>><?php echo $product['special']; ?></span>
                   <?php } ?>

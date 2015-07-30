@@ -81,6 +81,11 @@ class ModelJournal2Product extends Model {
         if ($product['quantity'] <= 0 && Journal2Utils::canGenerateImages()) {
             $this->addLabel($product_id, 'outofstock', $product['stock_status']);
         }
+		/* get organic label */
+        if ($product['organic'] == 1) {
+			
+            $this->addLabel($product_id, 'outofstock', 'organic');
+        }
 
         if (!isset(self::$cache[$product_id])) {
             return array();

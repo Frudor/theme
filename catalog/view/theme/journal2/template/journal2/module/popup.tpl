@@ -160,7 +160,6 @@
 <?php if (!$is_ajax): ?>
 <script>
     (function () {
-		document.getElementById('slot1').innerHTML= "fghjj";
         <?php if ($button_1['status'] && $button_1['hover_style']): ?>
         $('<style>#journal-popup-<?php echo $module; ?> .button-1:hover { <?php echo $button_1['hover_style']; ?> }</style>').appendTo($('head'));
         <?php endif; ?>
